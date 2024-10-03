@@ -1,0 +1,16 @@
+{
+    "FirstName": "Thomas",
+    "LastName": "Shelby",
+    "Gender": "Male",
+    "age":21,
+    "Address":{
+        "StreetAddress": 76,
+        "City": "Birmingham",
+        "State": "Alabama",
+        "Country": "United Kingdom"
+
+    },
+    "PhoneNumbers":[
+        {"Type":"Home", "Number":98669268503}
+    ]
+}

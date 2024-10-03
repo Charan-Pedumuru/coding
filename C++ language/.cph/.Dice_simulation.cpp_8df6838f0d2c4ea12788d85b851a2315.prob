@@ -1,0 +1,1 @@
+{"name":"Local: Dice_simulation","url":"d:\\Coding\\C++ language\\Dice_simulation.cpp","tests":[{"id":1696317601330,"input":"3\n1 2 3 4 5 6\nNE\n2 4 5 3 1 7\nSWN\n3 4 5 6 7 8\nSSEN","output":"4\n2\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++ language\\Dice_simulation.cpp","group":"local","local":true}

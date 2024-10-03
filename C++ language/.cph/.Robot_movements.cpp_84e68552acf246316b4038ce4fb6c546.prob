@@ -1,0 +1,1 @@
+{"name":"Local: Robot_movements","url":"d:\\Coding\\C++ language\\Robot_movements.cpp","tests":[{"id":1696138589916,"input":"2\n3 4 5 2 3\nSNW\n4 5 5 2 2 \nSESE","output":"1 2\n4 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++ language\\Robot_movements.cpp","group":"local","local":true}

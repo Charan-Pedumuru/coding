@@ -1,0 +1,23 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  color: black;
+  < !--used to change the properties of h1 -->text-align: center;
+}
+
+h2 {
+  color: white;
+  < !--used to change the properties of h2 -->text-align: center;
+}
+
+p {
+  font-family: verdana;
+  < !--used to change the text for all paragraphs-->font-size: 20px;
+}
+
+.this-text {
+  color: blue;
+  < !--used to change colour for a specific header-->
+}

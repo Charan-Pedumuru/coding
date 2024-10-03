@@ -1,0 +1,12 @@
+create table student(
+	student_id int,
+  	name varchar(25),
+  	major vrchar(20),
+  	primary key(student_id)
+);
+
+describe student;
+drop table student;
+alter table student add gpa decimal(3,2);
+
+alter table student drop column gpa;

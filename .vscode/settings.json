@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "C:\\Users\\chara\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "code-runner.runInTerminal": true,
+    
+}

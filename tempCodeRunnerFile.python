@@ -1,0 +1,3 @@
+my_print = lambda: print("Hello, world!")
+
+my_print()

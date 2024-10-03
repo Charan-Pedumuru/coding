@@ -1,0 +1,1 @@
+{"name":"Local: Perfect_square_cube_check","url":"d:\\Coding\\C++ language\\Perfect_square_cube_check.cpp","tests":[{"id":1696350959527,"input":"4\n1 64\n2 64\n2 9\n1 5","output":"YES\nYES\nNO\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding\\C++ language\\Perfect_square_cube_check.cpp","group":"local","local":true}

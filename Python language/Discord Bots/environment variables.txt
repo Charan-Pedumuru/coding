@@ -1,0 +1,2 @@
+TOKEN=OTExODczODIwMjU4ODczNDA0.YZnurA.J34LxiKUBYVykFdICUV0c9EnN68      # For skittle
+TOKEN=OTEyMjgzNjUzMzY1NzEwODQ4.YZtsXA.gI4_rN_2Pyjs4QcmkV_Qwc3WRew      # For arno

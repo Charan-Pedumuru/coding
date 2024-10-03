@@ -1,0 +1,11 @@
+n=input()
+a=0
+b=0
+i=0
+while(i<=len(n)-1):
+    if(int(n[i])%2==0):
+        a+=int(n[i])
+    else:
+        b+=int(n[i])
+    i+=1
+print(a,b)
