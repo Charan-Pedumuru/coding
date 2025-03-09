@@ -1,36 +1,39 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class node
-{
-    public:
+class node {
+public:
     int data;
     node* link;
-}*head,*temp,*temp1;
+} *head, *temp, *temp1, *temp2, *transversal;
 
-int main()
-{
-    head=NULL;
+int main() {
+    head = NULL;
 
-    temp=new node();                     // Creating dynamic memory allocation
-    temp->data=2;                      // Inserting elements into the node
-    temp->link=NULL;
-    head=temp;
+    // Creating first node
+    temp = new node();
+    temp->data = 2;
+    temp->link = NULL;
+    head = temp; // Setting head to point to first node
 
+    // Creating second node
+    temp1 = new node();
+    temp1->data = 4;
+    temp1->link = NULL;
+    temp->link = temp1;
 
-    temp=new node();
-    temp->data=4;
-    temp->link=NULL;
-    head=temp;
+    temp2 = new node();
+    temp2->data = 6;
+    temp2->link = NULL;
+    temp1->link=temp2;
 
-    temp1=head;
-    cout<<"The stored data is "<<endl;                            // Process of traversal in linked list
-    while(temp1!=NULL)
-    {
-        temp1=temp1->link;
-        cout<<temp->data<<endl;
+    // Traversing and printing the linked list
+    transversal = head;
+    cout << "The stored data is:" << endl;
+    while (transversal != NULL) {
+        cout << transversal->data << endl;
+        transversal = transversal->link;
     }
-    temp1->link=temp;
 
-
+    return 0;
 }

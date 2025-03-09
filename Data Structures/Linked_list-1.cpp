@@ -17,8 +17,8 @@ node *linklist(int a)
         cout<<"Enter the data for node number- "<<i+1<<" : ";
         cin>>temp->data;
         temp->next=NULL;
-
-        if(head==NULL)
+ 
+        if(head==NULL) 
         {
             head=temp;
         }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// (n&(n-1)==0) A power of 2 has only one 1 bit.
+// (n&(n-1))==0 A power of 2 has only one 1 bit.
 
 int isPowerOfTwo(int n) {
     return (n > 0) && ((n & (n - 1)) == 0);
