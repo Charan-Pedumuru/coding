@@ -7,8 +7,7 @@ char *strrev(char *str) {
   
       // Temporary char array to store the
     // reversed string
-    char *rev = (char *)malloc
-      (sizeof(char) * (len + 1));
+    char *rev = (char *)malloc(sizeof(char) * (len + 1));
   
     // Reversing the string
     for (int i = 0; i < len; i++) {
