@@ -7,10 +7,6 @@ int main()
     char str[]="prince of persia";
     //fgets(str,sizeof(str),stdin);
 
-    if (islower(str[0])) {
-        str[0] = toupper(str[0]);
-    }
-
     for(int i=0;str[i]!='\0';i++)
     {
         if(str[i] == ' ')

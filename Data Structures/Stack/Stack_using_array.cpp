@@ -4,7 +4,7 @@ using namespace std;
 void push(int a);
 void pop();
 int Top();
-int isempty();
+bool isempty();
 void print();
 
 #define n 10
@@ -18,6 +18,7 @@ int main()
     pop();print();
     push(12);print();
     push(4);print();
+    cout<<isempty()<<endl;
 }
 
 void push(int a)
@@ -47,17 +48,18 @@ int Top()
     return arr[top];
 }
 
-int isempty()
+bool isempty()
 {
     if(top==-1)
     return true;
 
+    else
     return false;
 }
 void print()
 {
     cout<<"The array is ";
-    for(int i=0;i<top;i++)
+    for(int i=0;i<=top;i++)
     {
         cout<<arr[i]<<"\t";
     }

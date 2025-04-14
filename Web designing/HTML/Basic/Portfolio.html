@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('ubuntu-blue.jpg');
+            /* Add your background image here */
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            animation: fadeIn 2s ease-in-out;
+            text-align: left;
+        }
+
+        section {
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.6);
+            margin: 20px;
+            border-radius: 10px; 
+            animation: slideUp 1.5s ease-in-out;
+            text-align: left;
+        }
+
+        .project,
+        .experience {
+            transition: transform 0.3s;
+        }
+
+        .project:hover,
+        .experience:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Charan Pedumuru</h1>
+        <p>Embedded Software Engineer | C | C++ | Linux | Kernel Upstreaming </p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Experienced Embedded Linux Engineer with expertise in kernel development, device drivers, BSP customization,
+            and
+            real-time systems. Skilled in C/C++, Yocto, U-Boot, and debugging tools. Passionate about optimizing
+            embedded systems
+            for performance and reliability.</p>
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <div class="experience">
+            <h3>Embedded Software Engineer</h3>
+            <p><strong>Company:</strong> MICROCHIP TECHNOLOGIES</p>
+            <p><strong>Duration:</strong> July 2024 – March 2025</p>
+        </div>
+        <div class="experience">
+            <h3>Embedded Software Intern</h3>
+            <p><strong>Company:</strong> MICROCHIP TECHNOLOGIES</p>
+            <p><strong>Duration:</strong> Feb 2024 – Jun 2024</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: C, C++</li>
+            <li>Version control: Git</li>
+            <li>Kernel upstreaming</li>
+            <li>Device trees</li>
+            <li>Tools: b4, Vim, Patchwork, Jenkins (CI/CD), JTAG (Lauterbach)</li>
+            <li>Build systems: Yocto Project and Buildroot</li>
+            <li>Embedded Linux</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Linux4sam BSP support</h3>
+            <p><strong>Role:</strong> Team Member</p>
+            <p><strong>Duration:</strong> April 2024 – March 2025</p>
+            <ul>
+                <li>Added new board support in Buildroot and Yocto project.</li>
+                <li>Created device tree overlay for Microchip LAN8840 Ethernet phy.</li>
+                <li>Testing support for release images and release candidates.</li>
+                <li>Generate release/test images using CI/CD.</li>
+                <li>Peer code review and provided appropriate feedback adhering to the open-source development process.
+                </li>
+                <li>Kernel migration support (LTS).</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Linux kernel mainline activity</h3>
+            <p><strong>Role:</strong> Team Member</p>
+            <p><strong>Duration:</strong> April 2024 – Till date</p>
+            <ul>
+                <li>Device tree binding conversion to YAML and upstreaming.</li>
+                <li>Aligned pin control node with Linux Device tree for uboot and upstreaming.</li>
+                <li>Link: <a href="https://lore.kernel.org/all/?q=charan%20Pedumuru">Kernel Mailing List
+                        Contributions</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>Software Monetization</h3>
+            <p><strong>Role:</strong> Team Member</p>
+            <p><strong>Duration:</strong> Jan 2024 – Feb 2024</p>
+            <ul>
+                <li>Implemented a POSIX API implementation for shared memory.</li>
+                <li>Created a static library and linked it to a test application.</li>
+                <li>Created a Makefile to compile for ARM and x86_64 architectures.</li>
+                <li>Testing support on different architecture devices.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: charan17171@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/Charan-Pedumuru">github.com/charan-pedumuru</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/charan-pedumuru/">linkedin.com/in/charan-pedumuru</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Charan Pedumuru</p>
+    </footer>
+</body>
+
+</html>
