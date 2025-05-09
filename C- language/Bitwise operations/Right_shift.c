@@ -4,12 +4,12 @@
 //Equivalent to dividing by 2^n
 
 int main() {
-    unsigned int num;
+    unsigned int num=0xabcd1234;
     printf("Enter a 32-bit integer: ");
     scanf("%u", &num);
 
     // Shift right by 16 bits to remove lower 16 bits
-    unsigned int result = num >> 16;
+    unsigned int result = num >> 16; // num/2^16
 
     printf("Remaining 16 bits: %u (0x%X)\n", result, result);
 

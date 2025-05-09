@@ -9,7 +9,7 @@ int main()
     printf("Enter a 32-bit integer: ");
     scanf("%u",&n);
 
-    unsigned int result=16<<n;
+    unsigned int result=16<<n;  //16*2^n
 
     printf("n<<16 : %u (0x%X)",result,result);
 }
